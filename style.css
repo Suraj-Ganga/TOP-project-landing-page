@@ -6,18 +6,18 @@ body{
 
 .top{
     background-color: #1F2937;
-    height: 80vh;
+    min-height: 80vh;
 }
 
 .info{
-    height: 60vh;
+    min-height: 60vh;
 }
 
 .quote{
     background-color: #E5E7EB;
-    height: 50vh;
+    min-height: 50vh;
 }
 
 .sign-up{
-    height: 40vh;
+    min-height: 40vh;
 }
