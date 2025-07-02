@@ -38,9 +38,9 @@ a{
 }
 
 .container{
-    border: 3px solid red;
-    margin-right: 48px;
-    margin-left: 48px;
+    /*border: 3px solid red;*/
+    margin-right: 16vw;
+    margin-left: 16vw;
 }
 
 .logo{
@@ -50,8 +50,36 @@ a{
 
 .top{
     background-color: #1F2937;
-    min-height: 72vh;
+    align-content: center;
+    padding-top: 48px;
+    padding-bottom: 128px;
 }
+
+.top .container{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.top .container div{
+    flex: 1 0 0;
+}
+
+.image{
+    background-color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 216px;
+    min-width: 320px;
+}
+
+.hero-main{
+    font-size: 48px;
+    font-weight: 900;
+}
+
 
 .info{
     min-height: 64vh;
